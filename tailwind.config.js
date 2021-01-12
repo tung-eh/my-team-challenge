@@ -3,7 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      sans: ['Montserrat', 'sans-serif'],
+      gridTemplateRows: {
+        layout: 'auto 1fr auto',
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['"PT Serif"', 'serif'],
+        footer: ['Montserrat', 'sans-serif'],
+      },
     },
   },
   variants: {
