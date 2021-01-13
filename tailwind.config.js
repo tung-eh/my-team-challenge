@@ -6,6 +6,9 @@ module.exports = {
       gridTemplateRows: {
         layout: 'auto 1fr auto',
       },
+      gridTemplateColumns: {
+        member: '1fr auto',
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
         serif: ['"PT Serif"', 'serif'],
