@@ -7,9 +7,22 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 
 html {
-  font-size: 18px;
+  font-size: 14px;
+}
+@media (min-width: 420px) {
+  html {
+    font-size: 18px;
+  }
 }
 
-.member-list > div:nth-child(3n + 2) {
-  margin-top: 5rem;
+@media (min-width: 420px) {
+  .member-list > div:nth-child(3n + 2) {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 419px) {
+  .member-list > div:nth-child(2n + 2) {
+    margin-top: 3rem;
+  }
 }

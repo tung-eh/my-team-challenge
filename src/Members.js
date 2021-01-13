@@ -16,7 +16,7 @@ const members = [
 
 const MemberItem = ({ name, role, image }) => {
   return (
-    <div className="grid grid-cols-member gap-2">
+    <div className="grid grid-cols-member content-start gap-2">
       <img className="w-full" src={image} alt={name} />
       <p
         className="uppercase font-serif text-xs"
@@ -31,7 +31,7 @@ const MemberItem = ({ name, role, image }) => {
 
 const Members = () => {
   return (
-    <div className="grid grid-cols-3 gap-x-14 gap-y-10 my-20 member-list">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-x-14  md:gap-y-10 my-20 member-list">
       {members.map((member) => (
         <MemberItem {...member} />
       ))}

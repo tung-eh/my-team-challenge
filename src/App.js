@@ -2,10 +2,10 @@ import Members from './Members'
 
 function App() {
   return (
-    <div className="grid grid-rows-layout min-h-screen max-w-4xl p-8 mx-auto">
-      <div className="grid grid-cols-2 mt-10">
+    <div className="grid grid-rows-layout min-h-screen max-w-4xl py-8 px-6 mx-auto">
+      <div className="grid md:grid-cols-2 gap-10 mt-10">
         <h1 className="font-serif font-bold text-3xl">The creative crew</h1>
-        <div className="px-6">
+        <div>
           <h2 className="uppercase font-semibold mb-3">Who we are</h2>
           <p className="font-normal">
             We are team of creatively diverse. driven. innovative individuals
